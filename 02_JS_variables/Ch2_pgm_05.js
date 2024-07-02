@@ -8,7 +8,12 @@ console.log(message);
 message = 'Congratulations! Your tweet has won a prize...';
 console.log(message);
 
-
+var info;
+name="kowsika";
+console.log("My name is" + " "+ name +".")
+var mark;
+mark=600;
+console.log("My mark is" + mark + "which I have scored in my exams");
 
 /* Further Adventures
  *
