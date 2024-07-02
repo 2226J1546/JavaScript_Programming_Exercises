@@ -10,7 +10,10 @@ console.log("New score: " + score);
 
 console.log("Way to go!");
 
-
+console.log("Successful Splat");
+var score=800;
+console.log("New Score:" + score);
+console.log("Congratulations");
 
 /* Further Adventures
  *
