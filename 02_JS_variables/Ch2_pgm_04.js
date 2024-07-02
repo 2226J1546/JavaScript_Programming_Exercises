@@ -6,8 +6,10 @@ console.log(score);
 
 score = 150;
 console.log(score);
-
-
+var score2;
+score2=400;
+console.log(score2)
+score2=500;
 
 /* Further Adventures
  *
