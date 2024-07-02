@@ -4,7 +4,8 @@ var playerName = "Kandra";
 var locationName = "The Dungeon of Doom";
 
 console.log(playerName + " is in " + locationName);
-
+var health="hello";
+console.log(health + "everyone I hope all of ur health is good")
 
 
 /* Further Adventures
