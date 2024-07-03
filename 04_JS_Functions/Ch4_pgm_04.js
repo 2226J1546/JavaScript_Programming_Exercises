@@ -6,7 +6,12 @@ sayHello = function () {
     console.log("Hello World!");
 };
 
+sayHello();
 
+var first;
+first=function(){
+    console.log("My first function");
+}
 
 /* Further Adventures
  *
