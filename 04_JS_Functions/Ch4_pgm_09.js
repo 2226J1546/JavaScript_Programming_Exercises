@@ -10,7 +10,14 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
+showMovieInfo();
 
+var movie;
+movie={
+  title:"master",
+actors:"vijay",
+  directosr:"lokesh kanagaraj"
+}
 
 /* Further Adventures
  *
