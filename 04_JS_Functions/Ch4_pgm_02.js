@@ -40,8 +40,21 @@ console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
 
-
-
+event1={
+     event:"diwali",
+      date:"2/11/2004",
+}
+event2={
+  event:"pongal",
+  date:"22/01/2024"
+}
+event3={
+  event:"tamil new year",
+  date:"23/04/2024"
+}
+console.log("The first event is" + event1.event + "on date " +event1.date);
+console.log("The second event is" + event2.event + "on date " +event2.date);
+console.log("The third event is" + event3.event + "on date " +event3.date);
 /* Further Adventures
  *
  * 1) Add a fourth movie and display its info
