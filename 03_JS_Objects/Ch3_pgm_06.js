@@ -6,9 +6,9 @@ var bookName;
 bookName = "The Adventures of Tom Sawyer";
 
 book = {
-    title : bookName
+    title : "The Adventures of Tom Sawyer";
 };
-
+console.log(book);
 
 
 /* Further Adventures
