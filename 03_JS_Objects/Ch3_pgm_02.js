@@ -15,6 +15,11 @@ console.log(book2Title + " by " + book2Author);
 console.log(book3Title + " by " + book3Author);
 
 
+var book4Title="The suitable Boy";
+var book4Author="Vikram Seth";
+
+console.log(book4Title+ " by "+ book4Author);
+
 
 /* Further Adventures
  *
