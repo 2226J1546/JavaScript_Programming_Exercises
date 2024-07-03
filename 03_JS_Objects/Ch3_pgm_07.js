@@ -5,14 +5,14 @@ var book2;
 var book3;
 book1 = {
     title : "The Hobbit",
-    author : "J. R. R. Tolkien";
-    year:"1976";
+    author : "J. R. R. Tolkien",
+    year:"1976"
 };
 
 book2 = {
 	title : "Northern Lights",
-	author : "Philip Pullman";
-	 year:"1976";
+	author : "Philip Pullman",
+	 year:"1976"
 };
 
 
