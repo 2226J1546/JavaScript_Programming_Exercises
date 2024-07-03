@@ -14,6 +14,14 @@ findTotal();
 console.log(number1 + " + " + number2 + " = " + result);
 
 
+var num1=100;
+var num2=200;
+var num3=300;
+var result=num1+num2+num3;
+var Totalsum=function(){
+	return result;
+};
+console.log("The First number is:" + num1 /n+ "The second number is:" + num2/n + "The third number is:" + num3 + "The result is:" + result);
 
 /* Further Adventures
  *
