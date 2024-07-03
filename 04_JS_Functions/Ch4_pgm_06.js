@@ -9,7 +9,10 @@ sayHello = function () {
 sayHello();
 sayHello();
 sayHello();
-
+var one;
+one=function() {
+	console.log("My first function");
+};
 
 
 /* Further Adventures
