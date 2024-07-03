@@ -13,6 +13,14 @@ console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
+movie2={
+  title:master,
+  actor:vijay,
+  director:lokesh kanagaraj
+};
+console.log("Movie title is:"+movie2.title);
+console.log("Actor:"+movie2.actor);
+console.log("Director:"+movie2.director);
 
 
 
