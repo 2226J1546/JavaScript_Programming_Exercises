@@ -22,6 +22,14 @@ movie = movie1;
 
 showMovieInfo();
 
+movie=movie2;//If we assign a movie2 to a movie without declaring movie2 we will get an error message
+let movie2={
+      movie:"Franskenstein",
+     year:"1931",
+    Language:"english"
+};
+
+
 
 
 /* Further Adventures
