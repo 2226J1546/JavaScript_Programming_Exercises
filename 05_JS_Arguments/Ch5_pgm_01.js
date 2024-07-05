@@ -3,10 +3,10 @@
 var message;
 var showMessage;
 
-message = "It's full of stars!";
+message = "Hello everyone";
 
 showMessage = function () {
-	console.log(message);
+	console.log(message);//When we enter the variable name wrongly the error will be displayed
 };
 
 showMessage();
