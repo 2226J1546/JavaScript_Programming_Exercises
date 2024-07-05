@@ -20,8 +20,9 @@ player2 = {
     health: 40
 };
 
-showPlayerPlace(player1.name, player1.place);
-showPlayerPlace(player2.name, player2.place);
+showPlayerPlace(player1.name.substring(0,1), player1.place);
+showPlayerPlace(player2.name.substring(2,1), player2.place);//The 2 is the starting number of the index and the 1 is the number of letters it has to print,
+it will start from 2nd index and print the one letter of it.
 
 
 
