@@ -22,6 +22,7 @@ movie = movie1;
 
 showMovieInfo();
 
+movie=movie2;
 
 
 /* Further Adventures
