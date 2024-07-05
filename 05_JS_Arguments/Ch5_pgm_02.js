@@ -4,9 +4,12 @@ var msg;
 var showMessage;
 
 msg = "It's full of stars!";
+message="This is interesting!!";
 
 showMessage = function () {
+	console.log(msg);
 	console.log(message);
+	console.log(msg+mesage);
 };
 
 showMessage();
