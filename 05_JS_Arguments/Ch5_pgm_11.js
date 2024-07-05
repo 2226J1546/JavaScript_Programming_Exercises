@@ -3,7 +3,8 @@
 var showPlayerPlace;
 
 showPlayerPlace = function (playerName, playerPlace) {
-    console.log(playerName + " is in " + playerPlace);
+    console.log(playerName[0] + " is in " + playerPlace);//WE can access the particular letter by using square bracket[],
+    it insicates the index value of the character
 };
 
 showPlayerPlace("Kandra", "The Dungeon of Doom");
