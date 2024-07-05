@@ -12,6 +12,16 @@ square(10);
 square(-2);
 square(1111);
 square(0.5);
+console.log(Math.sqrt(81));
+var cube;
+cube=function(ntc){
+    var result=ntc*ntc*ntc;
+    console.log(ntc +"*" +ntc +"*"+ ntc +"="+ result)
+}
+cube(2)
+cube(4)
+cube(9)
+cube(89)
 
 
 
