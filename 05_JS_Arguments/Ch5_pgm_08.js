@@ -20,8 +20,8 @@ player2 = {
     health: 40
 };
 
-showPlayerName(player1.name);
-showPlayerName(player2.name);
+showPlayerName(player1.name.toUpeerCase());
+showPlayerName(player2.name.toLowerCase());
 
 
 
