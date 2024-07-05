@@ -7,7 +7,8 @@ showMessage = function (message) {
 };
 
 showMessage("It's full of stars!");
-
+showMessage("That is so beautyful!!");
+showMessage("Enjoying the view!!!");
 
 
 /* Further Adventures
