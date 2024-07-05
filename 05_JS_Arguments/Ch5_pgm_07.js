@@ -3,11 +3,13 @@
 var showPlayerName;
 
 showPlayerName = function (playerName) {
-    console.log(playerName);
+    console.log("The Players name is:"+playerName);
+    console.log("The length is:"+playerName.length);
 };
 
 showPlayerName("Kandra");
 showPlayerName("Dax");
+console.log(playerName.length)//We will get an error when we ask the length of the playerName outside the function
 
 
 
