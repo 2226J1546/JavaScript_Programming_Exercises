@@ -11,7 +11,16 @@ response = getMessage();
 
 console.log(response);
 
-
+var getMyMessage=function (one)
+    {
+        return one;
+    }
+console.log(getMyMessage("Hello All"));
+getMyMessage("Have a good day");
+var MyMessage=function (two){
+    return "Message";
+}
+//Calling the function in console results in the 'Message'
 
 /* Further Adventures
  *
