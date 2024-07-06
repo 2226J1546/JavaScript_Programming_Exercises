@@ -6,8 +6,22 @@ getPlayerName = function (playerName) {
     return playerName;
 };
 
-console.log(getPlayerName("Kandra"));
-
+console.log(getPlayerName("==== Kandra ===="));
+let two=function (name){
+    prefix="====";
+    suffix="====";
+    res=prefix + name +suffix;
+    console.log(res);
+}
+two("Keerthika")
+let two=function (name){
+    border="|"
+    res= border+name;
+    console.log(border);
+    console.log(res);
+    console.log(border)
+}
+two("keerthika")
 
 
 /* Further Adventures
