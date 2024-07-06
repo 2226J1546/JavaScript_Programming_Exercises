@@ -8,9 +8,16 @@ getHelloTo = function (name) {
 
 console.log(getHelloTo("Kandra"));
 console.log(getHelloTo("Dax"));                                         
-
-
-
+let res="Hello bob".replace("bob","babs");
+console.log(res);
+let template="Hello {{name}}"
+console.log(template.replace("{{name}}","name"));
+console.log(template);
+let fun=function(four){
+    result=four.replace(four,"name")
+    console.log(result)
+}
+fun("four")
 /* Further Adventures
  *
  * The JavaScript replace function will
