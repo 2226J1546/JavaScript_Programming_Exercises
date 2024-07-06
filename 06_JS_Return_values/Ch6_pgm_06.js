@@ -21,7 +21,7 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
 
-
+getHelloTo("keerthika")
 
 /* Further Adventures
  *
