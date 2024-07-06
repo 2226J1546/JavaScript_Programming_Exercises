@@ -5,15 +5,25 @@ var add;
 add = function (number1, number2) {
 	var total = number1 + number2;
 
-	return total;
+	return "The sum of"+ number1 + " and" + number2 + " is" +total;
 };
 
 var sum = add(50, 23);
-
 console.log(sum);
+var sum=add(90,90);
+console.log(sum);
+var sum = add(20, 23);
+console.log(sum);
+var sum=add(900,0);
+console.log(sum);
+add = function (number1, number2,number3) {
+	var total = number1 + number2+number3;
 
+	return "The sum of"+ number1 +","+number2+ " and" + number3 + " is" +total;
+};
 
-
+var sum = add(50, 23,37);
+console.log(sum);
 /* Further Adventures
  *
  * 1) Find and display the sum of
