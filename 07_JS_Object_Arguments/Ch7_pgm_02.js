@@ -6,6 +6,7 @@ var calculateSizes = function (planet) {
     var r = planet.radius;
     planet.area = 4 * 3.142 * r * r;
     planet.volume = 4 * 3.142 * r * r * r / 3;
+    planet.diameter=r*2;
 };
 
 var displaySizes = function (planet) {
@@ -16,7 +17,7 @@ var displaySizes = function (planet) {
 
 calculateSizes(planet1);
 displaySizes(planet1);                                                  
-                                                  
+                                                 
 
 
 /* Further Adventures
