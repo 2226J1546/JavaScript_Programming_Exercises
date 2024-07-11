@@ -24,7 +24,19 @@ planet2 = buildPlanet("Neptune", 8, "Ice Giant", 24622, 4);
 
 console.log(getPlanetInfo(planet1));
 console.log(getPlanetInfo(planet2));
-
+const car1 =function(brand,model,tear,type,color,horsepower) {
+   return{ brand: "Toyota",
+    model: "Camry",
+    year: 2021,
+    type: "Sedan",
+    color: "Blue",
+    horsepower: 203
+};
+};
+getinfo=function (planets){
+    return car1.brand+":year"+car1.year;
+};
+console.log(getinfo(car1));
 
 
 /* Further Adventures
