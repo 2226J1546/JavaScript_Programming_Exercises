@@ -13,6 +13,7 @@ var displaySizes = function (planet) {
     console.log(planet.name);
     console.log("surface area = " + planet.area + " square km");
     console.log("volume = " + planet.volume + " cubic km");
+    console.log("Diameter:"+planet.diameter);
 };
 
 calculateSizes(planet1);
