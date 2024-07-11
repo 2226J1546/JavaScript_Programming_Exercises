@@ -16,7 +16,19 @@ getPlanetInfo = function (planet) {
 };
 
 console.log(getPlanetInfo(planet1));
+let planet2 = {
+    name: "Mercury",
+    position: 1,
+    type: "Terrestrial",
+    radius: 2439.7,
+    sizeRank: 8
+};
 
+let get=function (planets){
+    return planet2.name+":planet radius "+planet.radius;
+};
+console.log(get(planet2));
+    
 
 
 /* Further Adventures
