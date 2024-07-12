@@ -6,7 +6,11 @@ var dayInWeek = 4;
 console.log( days[dayInWeek] );
 console.log( days[dayInWeek - 1] );
 
-
+var dayInWeek=2;
+function week(one){
+  return days[one];
+}
+console.log(week(4));
 
 /* Further Adventures
  *
