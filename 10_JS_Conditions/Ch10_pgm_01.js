@@ -6,8 +6,16 @@ var guess = function (userNumber) {
   if (userNumber === secret) {
     console.log("Well done!");
   }
+  if (userNumber >secret) {
+    console.log("Too high");
+  }
+  if (userNumber <secret) {
+    console.log("Too low");
+  }
 };
-
+guess(8)
+guess(9)
+guess(4)
 
 
 /* Further Adventures
