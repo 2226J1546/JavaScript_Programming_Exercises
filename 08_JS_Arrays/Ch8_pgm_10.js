@@ -6,7 +6,19 @@
     console.log("Array: " + wholeArray);
   });
   
-  
+  const rect=[
+  {length:3,width:6},
+  {length:9,width:9}
+]
+let assignArea=function (one){
+  res=one.length * one.width;
+  console.log(res)
+}
+rect.forEach(assignArea)
+function showInfo(one){
+  return `The length ${one.length},The width ${one.width}`
+}
+console.log(showInfo(rect[0]))
   
   /* Further Adventures
    *
