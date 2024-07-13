@@ -1,7 +1,8 @@
 // Guess the random number
 
 var getGuesser = function () {
-    var secret = Math.floor(Math.random() * 10 + 1);
+    var secret = Math.floor(Math.random() * 50 + 30);
+	console.log(secret)
   
     return function (userNumber) {
       if (userNumber === secret) {
@@ -10,10 +11,22 @@ var getGuesser = function () {
         return "Unlucky, try again.";
       }
     };
-  };
-  
+  }
   var guess = getGuesser();
+  function between(min, max) {
+	// Generate a random number between 0 (inclusive) and 1 (exclusive)
+	const randomFraction = Math.random();
   
+	// Calculate the random whole number within the range [min, max]
+	const randomInRange = Math.floor(randomFraction * (max - min + 1)) + min;
+  
+	return randomInRange;
+  }
+  
+  // Example usage:
+  const result = between(10, 20); // Returns a random whole number between 10 and 20 (inclusive)
+  console.log(result);
+      
   
   
   /* Further Adventures
