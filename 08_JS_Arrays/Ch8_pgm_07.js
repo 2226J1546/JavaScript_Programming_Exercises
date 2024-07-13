@@ -15,6 +15,27 @@ showInfo = function (itemToShow) {
 
 items.forEach(showInfo);
 
+var items;
+var showInfo;
+
+items = [
+  "The Pyramids",
+  "The Grand Canyon",
+  "Bondi Beach"
+];
+function getTotalLetters(arr) {
+  return arr.reduce((total, showItem) => total + showItem.length, 0);
+}
+showInfo = function (itemToShow) {
+    console.log(itemToShow);
+    const totalLetters = getTotalLetters(showInfo);
+console.log(`Total letters in items: ${totalLetters}`);
+};
+
+items.forEach(showInfo);
+res=items.push("The good","The godess","Lord")
+items[3]="The Grand Canyon"
+console.log(items)
 
 
 /* Further Adventures
