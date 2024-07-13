@@ -14,7 +14,14 @@ removed = items.pop();
 
 console.log(removed + " was removed");
 console.log(items.join(" and "));
-
+res=items.push("The Good")
+console.log(res)
+console.log(items)
+items[1]="The godess"
+console.log(items)
+ress=items.push("lord","pord")
+console.log(ress)
+console.log(items)
 
 
 /* Further Adventures
