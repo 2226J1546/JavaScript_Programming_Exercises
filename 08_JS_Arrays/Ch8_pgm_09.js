@@ -3,7 +3,7 @@
 var players;
 var showArguments;
 
-players = [ "Dax", "Jahver", "Kandra" ];
+players = [ "Dax", "Jahver", "Kandra","Das","Kiki" ];
 
 showArguments = function (item, index, wholeArray) {
   console.log("Item: " + item);
