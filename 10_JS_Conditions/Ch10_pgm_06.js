@@ -1,7 +1,7 @@
 // A neater else-if block
 
-var getGuesser = function () {
-    var secret = Math.floor(Math.random() * 10 + 1);
+var getGuesser = function (range) {
+    var secret = Math.floor(Math.random() * range + 1);
   
     return function (userNumber) {
       if (userNumber === secret) {
@@ -14,9 +14,23 @@ var getGuesser = function () {
     };
   };
   
-  var guess = getGuesser();
+  var guess = getGuesser(20);
   
+  var getGuesser = function (range,offset) {
+var secret = Math.floor(Math.random() * (range - offset + 1)) + offset;
+console.log(secret)
   
+return function (userNumber) {
+  if (userNumber === secret) {
+	return "Well done!";
+  } else if (userNumber > secret) {
+	return "Too high!";
+  } else {
+	return "Too low!";
+  }
+}
+};
+var guess = getGuesser(20,10);  
   
   /* Further Adventures
    *
